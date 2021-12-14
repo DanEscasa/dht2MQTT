@@ -3,7 +3,7 @@ This project is adapted from [Rui Santos's excellent tutorial](https://RandomNer
 
 Also, in contrast to the post at RandomNerdTutorials.com, I've combined all the code into one file. At RNT, Rui separates these into boot.py and main.py. In the “near future”, I'll probably do the same.
 
-One other thing I've changed is using [tayfunulu's WiFi Manager](https://github.com/tayfunulu/WiFiManager) instead of hard-coding the WLAN credentials. Also in the “near future”, I'll add code to WiFi Manager to allow the user to change the default password.
+One other thing I've changed is using [tayfunulu's WiFi Manager](https://github.com/tayfunulu/WiFiManager) instead of hard-coding the WLAN credentials. You'll have to download the .py from his repository. Also in the “near future”, I'll add code to WiFi Manager to allow the user to change the default password.
 
 In addition to [Node-RED](https://nodered.org/), I also used [MQTT X](https://mqttx.app/), an MQTT desktop client, and the Android app [MQTT Dash](https://play.google.com/store/apps/details?id=net.routix.mqttdash&hl=en&gl=US). In the “near future”, I'll install the [iOS version](https://apps.apple.com/us/app/mqttool/id1085976398). Below are their respective screenshots.
 
