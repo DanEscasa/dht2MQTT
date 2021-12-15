@@ -1,6 +1,8 @@
 # dht to MQTT
 This project is adapted from [Rui Santos's excellent tutorial](https://RandomNerdTutorials.com/micropython-mqtt-publish-bme680-esp32-esp8266/), using the DHT11 in place of the BME680, and [broker.emqx.io](broker.emqx.io) in place of a local MQTT broker. An ESP32 takes temperature and humidity readings from the DHT11 and publishes those to EMQX.
 
+Speaking of Rui's tutorial, you'll still have to refer to it to download umqttsimple.py. The other libraries should come with the standard ESP Micropython distribution. The other exception is wifimgr.py — refer to two paragraphs below for the source.
+
 Also, in contrast to the post at RandomNerdTutorials.com, I've combined all the code into one file. At RNT, Rui separates these into boot.py and main.py. In the “near future”, I'll probably do the same.
 
 One other thing I've changed is using [tayfunulu's WiFi Manager](https://github.com/tayfunulu/WiFiManager) instead of hard-coding the WLAN credentials. You'll have to download the .py from his repository. Also in the “near future”, I'll add code to WiFi Manager to allow the user to change the default password.
