@@ -1,10 +1,7 @@
 # Adapted from https://RandomNerdTutorials.com/micropython-mqtt-publish-bme680-esp32-esp8266/
 # for use with the DHT11 in place of the BME680, and broker.emqx.io in place of a local MQTT broker
 
-# Also, in contrast to the post at RandomNerdTutorials.com, I've combined all the code into one file
-# At RNT, Rui separates these into boot.py and main.py. In the “near future”, I'll do the same.
-
-# One other thing I've changed is using tayfunulu's WiFi Manager at 
+# One thing I've changed is using tayfunulu's WiFi Manager at 
 # https://github.com/tayfunulu/WiFiManager. Also in the “near future”, I'll add code to allow the user
 # to change the default password
 
