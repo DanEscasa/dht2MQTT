@@ -15,7 +15,6 @@ In addition to [Node-RED](https://nodered.org/), I also used the  MQTT desktop c
 |:--:| 
 | MQTTX |
 
-|![Screenshot MQTT Dash](https://user-images.githubusercontent.com/8016816/145812821-b54d5402-2677-4904-928e-3c2174015eb2.jpg) |
+| <img src=https://user-images.githubusercontent.com/8016816/145812821-b54d5402-2677-4904-928e-3c2174015eb2.jpg width="300"> |
 |:--:| 
 | MQTT Dash |
-
