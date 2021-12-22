@@ -5,7 +5,7 @@ Speaking of Rui's tutorial, you'll still download [umqttsimple.py](https://raw.g
 
 One thing I've changed is using [tayfunulu's WiFi Manager](https://github.com/tayfunulu/WiFiManager) instead of hard-coding the WLAN credentials. You'll have to download the .py from his repository. Also in the “near future”, I'll add code to WiFi Manager to allow the user to change the default password.
 
-In addition to [Node-RED](https://nodered.org/), I also used [MQTT X](https://mqttx.app/), an MQTT desktop client, and the Android app [MQTT Dash](https://play.google.com/store/apps/details?id=net.routix.mqttdash&hl=en&gl=US). In the “near future”, I'll install the [iOS version](https://apps.apple.com/us/app/mqttool/id1085976398). Below are their respective screenshots.
+In addition to [Node-RED](https://nodered.org/), I also used the  MQTT desktop client [MQTT X](https://mqttx.app/) and the Android app [MQTT Dash](https://play.google.com/store/apps/details?id=net.routix.mqttdash&hl=en&gl=US). In the “near future”, I'll install the [iOS version](https://apps.apple.com/us/app/mqttool/id1085976398). Below are their respective screenshots.
 
 | ![Screenshot NODE-Red](https://user-images.githubusercontent.com/8016816/145812766-30bba930-e1a7-4a7e-9917-fa71f7a379e2.png)|
 |:--:| 
