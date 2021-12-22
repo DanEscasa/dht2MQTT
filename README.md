@@ -11,6 +11,8 @@ In addition to [Node-RED](https://nodered.org/), I also used the Linux desktop c
 |:--:| 
 | NODE-Red |
 
+The best way to learn to get this output is by following Rui's instructions in his tutorial, omitting the steps for pressure and gas. You can also take the easy way out and import this repository's flows.json.
+
 | ![Screenshot MQTTX](https://user-images.githubusercontent.com/8016816/145812798-cf28e0b0-d2b3-40d1-b2b1-30cc00bbcac4.png) |
 |:--:| 
 | MQTTX |
