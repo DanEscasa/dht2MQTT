@@ -7,17 +7,17 @@ The other libraries should come with the standard ESP Micropython distribution.
 
 In addition to [Node-RED](https://nodered.org/), I also used the Linux desktop client [MQTT X](https://mqttx.app/) and the Android app [MQTT Dash](https://play.google.com/store/Is/details?id=net.routix.mqttdash&hl=en&gl=US). In the “near future”, I'll try out the [iOS version](https://apps.apple.com/us/app/mqttool/id1085976398). Below are their respective screenshots.
 
-| ![Screenshot NODE-Red](https://user-images.githubusercontent.com/8016816/145812766-30bba930-e1a7-4a7e-9917-fa71f7a379e2.png)|
+| <img src=https://github.com/DanEscasa/dht2MQTT/blob/main/images/Screenshot.NODE-Red.png>
 |:--:| 
 | NODE-Red |
 
 The best way to learn to get this output is by following Rui's instructions in his tutorial, omitting the steps for pressure and gas, and changing the broker if needed. You can also take the easy way out and import this repository's flows.json.
 
-| ![Screenshot MQTTX](https://user-images.githubusercontent.com/8016816/145812798-cf28e0b0-d2b3-40d1-b2b1-30cc00bbcac4.png) |
+| <img src=https://github.com/DanEscasa/dht2MQTT/blob/main/images/Screenshot.MQTTX.png>
 |:--:| 
 | MQTTX |
 
-| <img src=https://user-images.githubusercontent.com/8016816/145812821-b54d5402-2677-4904-928e-3c2174015eb2.jpg width="300"> |
+| <img src=https://github.com/DanEscasa/dht2MQTT/blob/main/images/Screenshot.MQTT%20Dash.jpg width="300"> |
 |:--:| 
 | MQTT Dash |
 
