@@ -74,14 +74,15 @@ except OSError as e:
 
 while True:
   try:
-    if (time.time() - last_message) > message_interval:
-      temp, hum = read_dht_sensor()
-      print(temp)
-      print(hum)
+#    if (time.time() - last_message) > message_interval:
+    time.sleep(30)
+    temp, hum = read_dht_sensor()
+    print(temp)
+    print(hum)
 #      print(pres)
 #      print(gas)
-      client.publish(topic_pub_temp, temp)
-      client.publish(topic_pub_hum, hum)      
-      last_message = time.time()
+    client.publish(topic_pub_temp, temp)
+    client.publish(topic_pub_hum, hum)      
+    last_message = time.time()
   except OSError as e:
     restart_and_reconnect()
