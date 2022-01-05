@@ -11,7 +11,7 @@ In addition to [Node-RED](https://nodered.org/), I also used the Linux desktop c
 |:--:| 
 | NODE-Red |
 
-The best way to learn to get this output is by following Rui's instructions in his tutorial, omitting the steps for pressure and gas, and changing the broker if needed. You can also take the easy way out and import this repository's flows.json.
+The best way to learn to get this output is by following Rui's instructions in his tutorial, omitting the steps for pressure and gas, and changing the broker if needed. You can also take the easy way out and import import Rui's or this repository's flows.json, depending on whether you stick with Rui's BME+local MQTT broker or my DHT11+emqx broker, respectively.
 
 | <img src=https://github.com/DanEscasa/dht2MQTT/blob/main/images/Screenshot.MQTTX.png>
 |:--:| 
