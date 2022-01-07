@@ -1,9 +1,8 @@
 # Adapted from https://RandomNerdTutorials.com/micropython-mqtt-publish-bme680-esp32-esp8266/
 # for use with the DHT11 in place of the BME680, and broker.emqx.io in place of a local MQTT broker
 
-# One thing I've changed is using tayfunulu's WiFi Manager at 
-# https://github.com/tayfunulu/WiFiManager. Also in the “near future”, I'll add code to allow the user
-# to change the default password
+# One thing I've changed is using tayfunulu's WiFi Manager at # https://github.com/tayfunulu/WiFiManager.
+# In the “near future”, I'll add code to allow the user to change the default password
 
 import time
 from   umqttsimple import MQTTClient
@@ -14,7 +13,7 @@ import network
 import wifimgr
 import esp
 import dht
-from machine import Pin, I2C
+from   machine import Pin, I2C
 
 esp.osdebug(None)
 import gc
@@ -32,8 +31,8 @@ topic_pub_hum  = b'esp/dht/humidity'
 # topic_pub_pres = b'esp/dht/pressure'
 # topic_pub_gas  = b'esp/dht680/gas'
 
-last_message     = 0
-message_interval = 5
+# last_message     = 0
+message_interval = 30
 
 # ESP32 - Pin assignment
 #i2c = I2C(scl=Pin(22), sda=Pin(21))
@@ -75,7 +74,7 @@ except OSError as e:
 while True:
   try:
 #    if (time.time() - last_message) > message_interval:
-    time.sleep(30)
+    time.sleep(message_interval)
     temp, hum = read_dht_sensor()
     print(temp)
     print(hum)
@@ -83,6 +82,6 @@ while True:
 #      print(gas)
     client.publish(topic_pub_temp, temp)
     client.publish(topic_pub_hum, hum)      
-    last_message = time.time()
+#    last_message = time.time()
   except OSError as e:
     restart_and_reconnect()
